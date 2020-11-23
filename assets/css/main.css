@@ -8,16 +8,18 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
   background-color: #bda1d9;
 
 }
 
 #container {
+  display: flex;
+  flex-direction: column;
   /* background: yellow; */
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 header {
@@ -62,13 +64,25 @@ a:hover {
 
 }
 
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome img {
+  border-radius: 15px;
+  height: 23em;
+  border: 7px solid #dde16f;
+}
+
 
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px 30;
+  padding: 15px 30px;
   background-color:#faff6c;
   width: 70%;
   padding: 20px;
@@ -111,19 +125,81 @@ main h2 {
 
 /* *********************  ABOUT  ************************** */
 
-.container .top {
-  background-color: aliceblue;
+.parts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-.bottom {
+.parts .top {
   background-color:  #faff6c;
+  display: flex;
+  flex-direction: column;
+  margin: 18px 49px 35px 49px;
+  width: 55%;
+  align-items: center;
+  padding: 1px 33px 14px 33px;
+  border-radius: 15px;
 }
 
+.parts .top figure img {
+  width: 22em;
+  height: 20em;
+  border-radius: 15px;
+}
+
+.parts .top p {
+  text-align: center;
+}
+
+/* ********************** CONTACTS  *********************** */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  background-color: #faff6c;
+  align-self: center;
+  margin-top: 18px;
+  padding: 13px;
+  border-radius: 15px;
+}
+
+.profile figure {
+  margin: 0;
+  height: 15em;
+
+}
+
+.profile figure img {
+  border-radius: 15px;
+  height: 15em;
+  width: 18.4em;
+}
+
+.profile figure figcaption h2 {
+  text-align: center;
+  margin: 5px;
+}
+
+.profile h3 {
+  text-align: center;
+  margin: 47px 0 8px 0;
+}
+
+.profile p {
+  text-align: center;
+}
 
 footer {
   text-align: center;
   padding: 10px;
-  /* background-color: rebeccapurple; */
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 2.5em;
+  background-color:  #bda1d9;
 }
 
 p {

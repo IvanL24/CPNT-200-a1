@@ -1,9 +1,5 @@
 <footer>
-
-  <p>
   
-    &copy; Copyright 2020 Ivan Lavena. All Rights Reserved.
-
-  </p>
+    <?php echo "&copy;".date("Y"). " $site_owner"; ?> 
 
 </footer>

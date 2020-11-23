@@ -24,6 +24,12 @@ $page_title = "Homepage";
 
 
           <h2><?php echo $site_title ?></h2>
+
+            <figure>
+              <img src="assets/images/koalas-march.jpg" alt="koala">
+            </figure>
+
+
           <p><h3>Explore the world of snacks</h3></p>
 
         </div>

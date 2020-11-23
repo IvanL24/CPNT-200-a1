@@ -19,15 +19,27 @@ $page_title = "Homepage";
   <!-- INSERT HEADER -->
   <?php include('includes/partials/header.php'); ?>
     
-    <div class="top">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur, quo eius inventore alias distinctio magnam facere repellat, recusandae necessitatibus molestias, nemo maiores iste deleniti obcaecati accusamus? Eos, quis cupiditate.
-      Voluptas natus sequi enim officia atque saepe blanditiis incidunt minima reiciendis dolore, neque minus, quae libero adipisci ipsam cupiditate laudantium ut, hic ratione magni ex aliquid. Veritatis sequi voluptatum ratione?
-      Doloribus eligendi libero voluptate necessitatibus quasi sint laborum odit asperiores saepe, quia esse quidem ex perspiciatis animi assumenda. Cupiditate blanditiis ipsa nam natus exercitationem placeat cumque! Molestias voluptate possimus debitis.</p>
-    </div>
+    <div class="parts">
 
-    <div class="bottom">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis optio necessitatibus in vitae eaque deleniti mollitia nam impedit laudantium maxime iusto iste architecto, a, nesciunt illum ipsam consequuntur doloremque rem.</p>
+      <div class="top">
+        <figure>
+          <img src="assets/images/apollo-chocolate.jpg" alt="choco">
+        </figure>
+          
+          <p>
+
+            <h2>Our Legacy</h2>
+
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, maxime minima. At exercitationem sunt dicta iusto, qui reprehenderit necessitatibus dolorem quidem consequuntur est animi quam et, sed doloremque corporis numquam?
+            Eum minus odit quia ex quaerat, dolor earum quam soluta eaque neque obcaecati porro tempore deserunt quasi iusto omnis possimus doloremque explicabo? Accusantium ad praesentium sint porro quam accusamus eos?
+            In, totam eligendi laboriosam, ipsam laborum quia magnam est nostrum tempore ullam quos ea doloremque officiis, molestiae reprehenderit fugit. Ipsa cum similique possimus vel natus quisquam! Nam corrupti nisi itaque!
+            Dicta voluptatum laboriosam omnis officia magni, deserunt rerum voluptatibus ipsum saepe iusto nemo, accusantium aliquid dignissimos delectus laborum ea, dolor inventore quisquam maiores nostrum. Dignissimos dolorum soluta totam eos sapiente.
+            Obcaecati accusantium consequuntur, omnis commodi natus illum nostrum harum nemo cum porro fuga blanditiis doloribus cupiditate dicta, alias excepturi ea quibusdam voluptatum eum? Odit, quaerat assumenda. Accusamus nostrum eum illo.
+          </p>
+      </div>
+
     </div>
+    
   
   </div>
 
