@@ -40,11 +40,12 @@ $page_title = "Homepage";
 
     </div>
     
-  
+    <!-- INSERT FOOTER -->
+  <?php include('includes/partials/footer.php'); ?>  
+
   </div>
 
-  <!-- INSERT FOOTER -->
-  <?php include('includes/partials/footer.php'); ?>  
+  
 
 </body>
 </html>

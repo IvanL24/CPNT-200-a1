@@ -19,22 +19,64 @@ $page_title = "Homepage";
   <!-- INSERT HEADER -->
   <?php include('includes/partials/header.php'); ?>
     
-    <div class="profile">
+    <div class="contacts">
 
-      <figure>
+      <div class="profile">
 
-        <img src="assets/images/profile.jpg" alt="profile">
+          <figure>
 
-        <figcaption>
-            <h2>Ivan Lavena</h2>
-        </figcaption>
-      </figure>
+            <img src="assets/images/profile.jpg" alt="profile">
 
-      <h3>Owner</h3>
+            <figcaption>
+                <h2>Ivan</h2>
+            </figcaption>
+          </figure>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam aliquam in fugiat doloremque, tempore cumque esse provident quod porro nihil autem enim quisquam labore sit voluptatem, unde impedit nesciunt!Tenetur esse nihil ipsa, cum architecto, recusandae fugiat, aliquid omnis harum rem vel sequi quia expedita fugit fuga? Quos, doloremque! Accusantium possimus illo voluptatem fugit modi mollitia dolorum qui commodi?
-      </p>
+          <h3>Owner</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam aliquam in fugiat doloremque, tempore cumque esse provident quod porro nihil autem enim quisquam labore sit voluptatem, unde impedit nesciunt!Tenetur esse nihil ipsa, cum architecto, recusandae fugiat, aliquid omnis harum rem vel sequi quia expedita fugit fuga? Quos, doloremque! Accusantium possimus illo voluptatem fugit modi mollitia dolorum qui commodi?
+          </p>
+
+          </div>
+
+          <div class="profile">
+
+          <figure>
+
+            <img src="assets/images/profile.jpg" alt="profile">
+
+            <figcaption>
+                <h2>Clarence</h2>
+            </figcaption>
+          </figure>
+
+          <h3>Owner</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam aliquam in fugiat doloremque, tempore cumque esse provident quod porro nihil autem enim quisquam labore sit voluptatem, unde impedit nesciunt!Tenetur esse nihil ipsa, cum architecto, recusandae fugiat, aliquid omnis harum rem vel sequi quia expedita fugit fuga? Quos, doloremque! Accusantium possimus illo voluptatem fugit modi mollitia dolorum qui commodi?
+          </p>
+
+          </div>
+
+          <div class="profile">
+
+          <figure>
+
+            <img src="assets/images/profile.jpg" alt="profile">
+
+            <figcaption>
+                <h2>Lavena</h2>
+            </figcaption>
+          </figure>
+
+          <h3>Owner</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam aliquam in fugiat doloremque, tempore cumque esse provident quod porro nihil autem enim quisquam labore sit voluptatem, unde impedit nesciunt!Tenetur esse nihil ipsa, cum architecto, recusandae fugiat, aliquid omnis harum rem vel sequi quia expedita fugit fuga? Quos, doloremque! Accusantium possimus illo voluptatem fugit modi mollitia dolorum qui commodi?
+          </p>
+
+      </div>
 
     </div>
   
