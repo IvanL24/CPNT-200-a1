@@ -3,227 +3,322 @@
 }
 
 body {
+
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   margin: 0;
-  /* height: 100vh; */
-  /* width: 100vw; */
+  
   background-color: #bda1d9;
 
 }
 
 body h2, h3, p, a {
+
   font-family: 'Noto Sans', sans-serif;
+
 }
 
 #container {
+
   display: flex;
+
   flex-direction: column;
-  /* background: yellow; */
-  /* width: 100vw; */
-  /* height: 100vh; */
+  
 }
 
 header {
+
   display: flex;
-  /* flex-direction: column; */
+
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: rebeccapurple; */
+
   padding: 0 20px 0 20px;
 
 }
 
 header h1 {
+
   font-family: 'Nerko One', cursive;
   font-size: 40px;
+
   margin: 30px 0 28px 0;
+
   color: #faff6c;
+
 }
 
 header ul {
+
   display: flex;
+
   list-style: none;
+  
 }
 
 header ul li {
+
    margin: 15px;
+
 }
 
 header ul li a {
+
   text-decoration: none;
+
   padding: 7px 18px;
+
   border: 1px solid yellow;
   border-radius: 23px;
+
   background-color: #faff6c;
+
 }
 
 a:hover {
+
   background-color:  #ccb325;
+
 }
 
 .hero {
+
   display: flex;
+
   justify-content: center;
 
 }
 
 .welcome {
+
   display: flex;
+
   flex-direction: column;
   align-items: center;
+
 }
 
 .welcome img {
-  border-radius: 15px;
+
   height: 23em;
+
+  border-radius: 15px;
   border: 7px solid #dde16f;
+
 }
 
 
 
 main {
+
+  width: 70%;
+
   display: flex;
+
   flex-direction: column;
   align-items: center;
-  padding: 15px 30px;
+
   background-color:#faff6c;
-  width: 70%;
+
   padding: 20px;
+
   border-radius: 15px;
+
 }
 
 
 main h2 {
+
   justify-self: center;
+
 }
 
+/* *******************  PRODUCTS  ************************ */
+
 .cards {
+
   display: flex;
+
   justify-content: center;
   flex-wrap: wrap;
 
 }
 
 .cards figure {
+
+  width: 21em;
+
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 21em;
+
   border-radius: 15px;
+
   padding: 10px 0 0 0;
+
 }
 
 .cards figure:hover {
   
   background-color: #faff6c;
+
 }
 
 .cards figure img {
+
   width: 20em;
   height: 23em;
+
   border-radius: 15px;
+
 }
 
 
 /* *********************  ABOUT  ************************** */
 
 .legacy {
+
   display: flex;
+
   align-self: center;
+
 }
 
 .parts{
+
   display: flex;
+
   flex-direction: column;
   align-items: center;
 
 }
 
 .parts .top {
-  background-color:  #faff6c;
+
   display: flex;
+
   flex-direction: column;
-  margin: 6px 27px 17px 27px;
-  /* width: 55%; */
   align-items: center;
-  /* padding: 1px 33px 14px 33px; */
+
+  margin: 6px 27px 17px 27px;
+
   border-radius: 15px;
+
+  background-color:  #faff6c;
+
 }
 
 .parts .top figure img {
+
   width: 22em;
   height: 20em;
+
   border-radius: 15px;
   border: 7px solid #dde16f;
+
 }
 
 .parts .top p {
+
   font-family: 'nor';
   text-align: center;
+
 }
 
 /* ********************** CONTACTS  *********************** */
 
 .contacts {
+
   display: flex;
+
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 14em; */
+  
 }
 
 
 .profile {
-  display: flex;
-  flex-direction: column;
+
   width: 20em;
-  background-color: #faff6c;
+
+  display: flex;
+
+  flex-wrap: wrap;  
+  flex-direction: column;
   align-self: center;
+
   margin: 18px 30px 0 30px;
-  flex-wrap: wrap;  padding: 13px;
+  padding: 13px;
+
   border-radius: 15px;
+
+  background-color: #faff6c;
+
 }
 
 .profile figure {
-  margin: 0;
+
   height: 15em;
+
+  margin: 0;
 
 }
 
 .profile figure img {
-  border-radius: 15px;
+
   height: 15em;
   width: 18.4em;
+  
+  border-radius: 15px;
+
 }
 
 .profile figure figcaption h2 {
+
   text-align: center;
+
   margin: 5px;
+
 }
 
 .profile h3 {
+
   text-align: center;
+
   margin: 47px 0 8px 0;
+
 }
 
 .profile p {
+
   text-align: center;
+
 }
 
 footer {
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0%;
+  
   width: 100%;
   height: 2.5em;
-  /* background-color:  #bda1d9; */
+
+  text-align: center;
+
+  padding: 10px;
+
+  position: fixed;
+  bottom: 0%;
+
 }
 
 p {
+
   margin: 0;
+  
   text-align: center;
+  
 }

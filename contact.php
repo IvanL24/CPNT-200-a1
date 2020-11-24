@@ -2,7 +2,7 @@
 
 // INSERT _CONFIG
 include('includes/_config.php');
-$page_title = "Homepage";
+$page_title = "Contact";
 
 
 ?>
