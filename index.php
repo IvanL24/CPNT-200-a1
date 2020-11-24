@@ -30,7 +30,7 @@ $page_title = "Homepage";
             </figure>
 
 
-          <p><h3>Explore the world of snacks</h3></p>
+          <h3>Explore the world of snacks</h3>
 
         </div>
 
